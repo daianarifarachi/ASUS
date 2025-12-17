@@ -59,11 +59,16 @@ background-color: var(--secondary-color-50);
     
 }
 
+.header__nav-item:hover{
+    color: var(--primary-color-700);
+    cursor: pointer;
+    
+}
+
 .header__nav-item{
     color: var(--primary-color-100);
     font-weight: 450;
     padding: 10px;
-    cursor: pointer;
 }
 
 .header__actions{
