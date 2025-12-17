@@ -4,6 +4,7 @@
     --primary-color-700: #F51928;
     --primary-color-900: #000000;
     --primary-color-100: #ffffff;
+    --secondary-color-50:#424242; 
 }
 * {
     margin: 0;
@@ -25,7 +26,7 @@ ul,ol{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1600px;
+    max-width: 1560px;
     padding: 0 24px;
     
 }
@@ -42,6 +43,13 @@ ul,ol{
     height: 28.83px;
     fill: var(--primary-color-700);
 }
+
+.header__divider {
+width: 1px;
+height: 20px;
+background-color: var(--secondary-color-50);
+}
+
 
 .header__nav-list {
     display: flex;
